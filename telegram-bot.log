@@ -1,0 +1,218 @@
+[INFO] 03-07-23 - 18:41:52 : Bot starts | main.py
+[INFO] 03-07-23 - 18:41:52 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 19:13:55 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 21:34:59 : Bot starts | main.py
+[INFO] 03-07-23 - 21:34:59 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:39:24 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:39:43 : Bot starts | main.py
+[INFO] 03-07-23 - 22:39:43 : Start polling. | dispatcher.py
+[ERROR] 03-07-23 - 22:39:46 : Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<Dispatcher._process_polling_updates() done, defined at F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'Icon' and 'str'")> | base_events.py
+Traceback (most recent call last):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 14, in start_message
+    f' заполни форму.', reply_markup=start_inline_keyboard())
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 7, in start_inline_keyboard
+    help_btn = InlineKeyboardButton(Icon.PLUS + 'Помощь', callback_data='help')
+TypeError: unsupported operand type(s) for +: 'Icon' and 'str'
+[WARNING] 03-07-23 - 22:40:03 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:40:04 : Bot starts | main.py
+[INFO] 03-07-23 - 22:40:04 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:41:09 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:41:10 : Bot starts | main.py
+[INFO] 03-07-23 - 22:41:10 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:41:42 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:41:43 : Bot starts | main.py
+[INFO] 03-07-23 - 22:41:43 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:48:20 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:48:20 : Bot starts | main.py
+[INFO] 03-07-23 - 22:48:20 : Start polling. | dispatcher.py
+[ERROR] 03-07-23 - 22:48:24 : Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<Dispatcher._process_polling_updates() done, defined at F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError('PLUS')> | base_events.py
+Traceback (most recent call last):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 14, in start_message
+    f' заполни форму.', reply_markup=start_inline_keyboard())
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 7, in start_inline_keyboard
+    help_btn = InlineKeyboardButton(Icon.PLUS.value + 'Помощь', callback_data='help')
+  File "C:\Users\ersho\AppData\Local\Programs\Python\Python39\lib\enum.py", line 352, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: PLUS
+[WARNING] 03-07-23 - 22:48:29 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:48:38 : Bot starts | main.py
+[INFO] 03-07-23 - 22:48:38 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:54:04 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:54:56 : Bot starts | main.py
+[INFO] 03-07-23 - 22:54:56 : Start polling. | dispatcher.py
+[ERROR] 03-07-23 - 22:55:00 : Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<Dispatcher._process_polling_updates() done, defined at F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'Icon' and 'str'")> | base_events.py
+Traceback (most recent call last):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 14, in start_message
+    f' заполни форму.', reply_markup=start_inline_keyboard())
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 7, in start_inline_keyboard
+    help_btn = InlineKeyboardButton(Icon.STAR + 'Помощь', callback_data='help')
+TypeError: unsupported operand type(s) for +: 'Icon' and 'str'
+[WARNING] 03-07-23 - 22:55:36 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:55:36 : Bot starts | main.py
+[INFO] 03-07-23 - 22:55:36 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:56:09 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:56:09 : Bot starts | main.py
+[INFO] 03-07-23 - 22:56:09 : Start polling. | dispatcher.py
+[ERROR] 03-07-23 - 22:56:11 : Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<Dispatcher._process_polling_updates() done, defined at F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'Icon' and 'str'")> | base_events.py
+Traceback (most recent call last):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 14, in start_message
+    f' заполни форму.', reply_markup=start_inline_keyboard())
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 7, in start_inline_keyboard
+    help_btn = InlineKeyboardButton(Icon.STAR + 'Помощь', callback_data='help')
+TypeError: unsupported operand type(s) for +: 'Icon' and 'str'
+[WARNING] 03-07-23 - 22:56:25 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 22:56:26 : Bot starts | main.py
+[INFO] 03-07-23 - 22:56:26 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 22:59:49 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:00:44 : Bot starts | main.py
+[INFO] 03-07-23 - 23:00:44 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:00:58 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:03:18 : Bot starts | main.py
+[INFO] 03-07-23 - 23:03:18 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:09:10 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:09:11 : Bot starts | main.py
+[INFO] 03-07-23 - 23:09:11 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:10:47 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:11:16 : Bot starts | main.py
+[INFO] 03-07-23 - 23:11:16 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:15:37 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:15:38 : Bot starts | main.py
+[INFO] 03-07-23 - 23:15:38 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:15:42 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:25:06 : Bot starts | main.py
+[INFO] 03-07-23 - 23:25:06 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:25:39 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:25:39 : Bot starts | main.py
+[INFO] 03-07-23 - 23:25:39 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:25:56 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:25:57 : Bot starts | main.py
+[INFO] 03-07-23 - 23:25:57 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:26:08 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:26:09 : Bot starts | main.py
+[INFO] 03-07-23 - 23:26:09 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:26:24 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:26:25 : Bot starts | main.py
+[INFO] 03-07-23 - 23:26:25 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:27:13 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:27:14 : Bot starts | main.py
+[INFO] 03-07-23 - 23:27:14 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:28:30 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:28:31 : Bot starts | main.py
+[INFO] 03-07-23 - 23:28:31 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:41:24 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:45:41 : Bot starts | main.py
+[INFO] 03-07-23 - 23:45:41 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:46:44 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:46:45 : Bot starts | main.py
+[INFO] 03-07-23 - 23:46:45 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:48:25 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:48:25 : Bot starts | main.py
+[INFO] 03-07-23 - 23:48:25 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:48:31 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:48:31 : Bot starts | main.py
+[INFO] 03-07-23 - 23:48:31 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:51:55 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:51:55 : Bot starts | main.py
+[INFO] 03-07-23 - 23:51:55 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:52:05 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:52:06 : Bot starts | main.py
+[INFO] 03-07-23 - 23:52:06 : Start polling. | dispatcher.py
+[WARNING] 03-07-23 - 23:53:48 : Polling is stopped. | dispatcher.py
+[INFO] 03-07-23 - 23:53:49 : Bot starts | main.py
+[INFO] 03-07-23 - 23:53:49 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 00:07:22 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 00:07:23 : Bot starts | main.py
+[INFO] 04-07-23 - 00:07:23 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 01:58:32 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 01:58:33 : Bot starts | main.py
+[INFO] 04-07-23 - 01:58:33 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 02:19:09 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 02:23:25 : Bot starts | main.py
+[INFO] 04-07-23 - 02:23:25 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 02:31:14 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 02:31:15 : Bot starts | main.py
+[INFO] 04-07-23 - 02:31:15 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 02:56:03 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 02:56:04 : Bot starts | main.py
+[INFO] 04-07-23 - 02:56:04 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 02:56:18 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 02:56:19 : Bot starts | main.py
+[INFO] 04-07-23 - 02:56:19 : Start polling. | dispatcher.py
+[ERROR] 04-07-23 - 02:57:15 : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<Dispatcher._process_polling_updates() done, defined at F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageNotModified('Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message')> | base_events.py
+Traceback (most recent call last):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\interface\user_interface.py", line 84, in callback_query_mark
+    await call.message.edit_text(text='Спасибо за оценку! Хочешь оставить комментарий? Напиши свой отзыв и нажми "Отправить комментарий"',
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\types\message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\bot\bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "F:\progesNOprogress\pythonProject\IIT-Event_2\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[WARNING] 04-07-23 - 02:58:00 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 02:58:01 : Bot starts | main.py
+[INFO] 04-07-23 - 02:58:01 : Start polling. | dispatcher.py
+[WARNING] 04-07-23 - 02:58:14 : Polling is stopped. | dispatcher.py
+[INFO] 04-07-23 - 03:09:21 : Bot starts | main.py
+[INFO] 04-07-23 - 03:09:21 : Start polling. | dispatcher.py
